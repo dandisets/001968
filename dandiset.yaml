@@ -57,7 +57,8 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001968/versions/draft/assets/
 name: Early dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease
-relatedResource: []
+relatedResource:
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
