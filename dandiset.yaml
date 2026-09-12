@@ -3,9 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'We thank M. Kitazawa and members of the Igarashi Lab for providing
+  valuable comments on the work. '
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -14,27 +17,53 @@ citation: Nakagawa, Tatsuki (2026) Early dopamine disruption in the entorhinal c
   of a knock-in model of Alzheimer’s disease (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001968/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: University of California, Irvine
+    schemaKey: Affiliation
   email: nkgwt525@gmail.com
   includeInCitation: true
   name: Nakagawa, Tatsuki
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- email: kei.igarashi@uci.edu
+  identifier: 0000-0002-5635-169X
+  name: Igarashi, Kei
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2026-09-12T11:21:50.208272+00:00'
 description: This Dandiset contains data associated with Nakagawa et al. (2026), “Early
   dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease,” published in Nature Neuroscience.
+ethicsApproval: []
 id: DANDI:001968/draft
 identifier: DANDI:001968
+keywords:
+- Alzheimer’s disease
+- lateral entorhinal cortex
+- dopamine
+- associative memory
+- memory encoding
+- APP knock-in mouse
+- electrophysiology
+- optogenetics
+- L-DOPA
+- olfactory learning
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001968/versions/draft/assets/
 name: Early dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- To determine whether early disruption of dopamine signaling in the lateral entorhinal
+  cortex contributes to impaired associative memory encoding in Alzheimer’s disease.
 url: https://dandiarchive.org/dandiset/001968/draft
 version: draft
+wasGeneratedBy: []
