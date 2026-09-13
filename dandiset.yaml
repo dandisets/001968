@@ -13,14 +13,15 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Nakagawa, Tatsuki (2026) Early dopamine disruption in the entorhinal cortex
-  of a knock-in model of Alzheimer’s disease (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001968/draft
+citation: Nakagawa, Tatsuki; Igarashi, Kei (2026) Early dopamine disruption in the
+  entorhinal cortex of a knock-in model of Alzheimer’s disease (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001968/draft
 contributor:
 - affiliation:
   - name: University of California, Irvine
     schemaKey: Affiliation
   email: nkgwt525@gmail.com
+  identifier: 0000-0002-1625-4334
   includeInCitation: true
   name: Nakagawa, Tatsuki
   roleName:
@@ -28,16 +29,24 @@ contributor:
   schemaKey: Person
 - email: kei.igarashi@uci.edu
   identifier: 0000-0002-5635-169X
+  includeInCitation: true
   name: Igarashi, Kei
   roleName:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+  url: https://www.igarashilab.org/
 dateCreated: '2026-09-12T11:21:50.208272+00:00'
 description: This Dandiset contains data associated with Nakagawa et al. (2026), “Early
   dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease,” published in Nature Neuroscience.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: iacuc@uci.edu
+    schemaKey: ContactPoint
+    url: https://research.uci.edu/animal-care-and-use/
+  identifier: AUP-25-007
+  schemaKey: EthicsApproval
 id: DANDI:001968/draft
 identifier: DANDI:001968
 keywords:
@@ -58,7 +67,14 @@ manifestLocation:
 name: Early dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease
 relatedResource:
-- {}
+- identifier: doi:10.1038/s41593-026-02260-w
+  name: Early dopamine disruption in the entorhinal cortex of a knock-in model of
+    Alzheimer’s disease
+  relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1038/s41593-026-02260-w
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
