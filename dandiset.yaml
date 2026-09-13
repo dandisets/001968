@@ -31,8 +31,8 @@ assetsSummary:
   variableMeasured:
   - Units
 citation: Igarashi, Kei M.; Nakagawa, Tatsuki (2026) Early dopamine disruption in
-  the entorhinal cortex of a knock-in model of Alzheimer’s disease (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001968/draft
+  the entorhinal cortex of a knock-in model of Alzheimer’s disease (Version 0.260913.1518)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001968/0.260913.1518
 contributor:
 - email: kei.igarashi@uci.edu
   identifier: 0000-0002-5635-169X
@@ -102,9 +102,11 @@ contributor:
   schemaKey: Organization
   url: https://www.jst.go.jp/
 dateCreated: '2026-09-12T11:21:50.208272+00:00'
+datePublished: '2026-09-13T15:18:43.427500+00:00'
 description: This Dandiset contains data associated with Nakagawa et al. (2026), “Early
   dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease,” published in Nature Neuroscience.
+doi: 10.48324/dandi.001968/0.260913.1518
 ethicsApproval:
 - contactPoint:
     email: iacuc@uci.edu
@@ -112,7 +114,7 @@ ethicsApproval:
     url: https://research.uci.edu/animal-care-and-use/
   identifier: AUP-25-007
   schemaKey: EthicsApproval
-id: DANDI:001968/draft
+id: DANDI:001968/0.260913.1518
 identifier: DANDI:001968
 keywords:
 - Alzheimer’s disease
@@ -128,9 +130,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001968/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001968/0.260913.1518/assets.yaml
 name: Early dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
   disease
+publishedBy:
+  endDate: '2026-09-13T15:18:43.427500+00:00'
+  id: urn:uuid:82286e44-76e2-4997-a85f-2a617302a474
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-13T15:18:43.427500+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:191dc6e2-e1b9-429a-8942-a7493714c9af
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1038/s41593-026-02260-w
   name: Early dopamine disruption in the entorhinal cortex of a knock-in model of
@@ -146,6 +160,6 @@ schemaVersion: 0.7.0
 studyTarget:
 - To determine whether early disruption of dopamine signaling in the lateral entorhinal
   cortex contributes to impaired associative memory encoding in Alzheimer’s disease.
-url: https://dandiarchive.org/dandiset/001968/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001968/0.260913.1518
+version: 0.260913.1518
 wasGeneratedBy: []
