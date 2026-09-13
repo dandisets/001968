@@ -13,10 +13,19 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Nakagawa, Tatsuki; Igarashi, Kei (2026) Early dopamine disruption in the
-  entorhinal cortex of a knock-in model of Alzheimer’s disease (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001968/draft
+citation: Igarashi, Kei M.; Nakagawa, Tatsuki (2026) Early dopamine disruption in
+  the entorhinal cortex of a knock-in model of Alzheimer’s disease (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001968/draft
 contributor:
+- email: kei.igarashi@uci.edu
+  identifier: 0000-0002-5635-169X
+  includeInCitation: true
+  name: Igarashi, Kei M.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: https://www.igarashilab.org/
 - affiliation:
   - name: University of California, Irvine
     schemaKey: Affiliation
@@ -27,15 +36,54 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- email: kei.igarashi@uci.edu
-  identifier: 0000-0002-5635-169X
-  includeInCitation: true
-  name: Igarashi, Kei
+- awardNumber: R01MH121736, R01MH137156
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
   roleName:
-  - dcite:Author
-  - dcite:ContactPerson
-  schemaKey: Person
-  url: https://www.igarashilab.org/
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
+- awardNumber: R01AG063864, R01AG066806, R01AG086441, RF1AG091584
+  identifier: https://ror.org/049v75w11
+  name: National Institute on Aging
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nia.nih.gov/
+- awardNumber: A2019380S, A2022018F
+  identifier: https://ror.org/03cvfxv40
+  name: BrightFocus Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.brightfocus.org/
+- awardNumber: AARG-17-532932, AARF-22-923955
+  identifier: https://ror.org/0375f4d26
+  name: Alzheimer's Association
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.alz.org/
+- awardNumber: BRFSG-2017-04
+  identifier: https://ror.org/0492gsr48
+  name: Brain Research Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://thebrf.org/
+- awardNumber: CCAD201902
+  name: New Vision Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://newvisionresearch.org/
+- awardNumber: JPMJPR2481
+  identifier: https://ror.org/00097mb19
+  name: Japan Science and Technology Agency
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.jst.go.jp/
 dateCreated: '2026-09-12T11:21:50.208272+00:00'
 description: This Dandiset contains data associated with Nakagawa et al. (2026), “Early
   dopamine disruption in the entorhinal cortex of a knock-in model of Alzheimer’s
