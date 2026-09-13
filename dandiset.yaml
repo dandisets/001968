@@ -10,9 +10,26 @@ access:
 acknowledgement: 'We thank M. Kitazawa and members of the Igarashi Lab for providing
   valuable comments on the work. '
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 277440
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
 citation: Igarashi, Kei M.; Nakagawa, Tatsuki (2026) Early dopamine disruption in
   the entorhinal cortex of a knock-in model of Alzheimer’s disease (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001968/draft
